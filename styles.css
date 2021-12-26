@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: #212121;
+    color: rgb(180, 178, 73);
+    font-family: monospace, "lucida console";
+}
+
+.content {
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.innerContent {
+    color: rgb(255, 255, 0);
+    border: 1px solid rgb(67, 197, 28);
+    min-width: 200px;
+    max-width: 400px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-image: url("./images/leafybackground.png");
+    background-size: cover;
+    position: relative;   
+}
+
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bombImg {
+    position: absolute;
+    right: -10px;
+    top: -30px;
+    width: 50px;
+}
+
+p {
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    align-self: flex-start;
+}
+
+a {
+    font-size: 10px;
+    color:rgb(34, 250, 6);
+    text-decoration: none;
+}
+
+.beardImage {
+    margin-top: 50px;
+    align-self: flex-start;
+    border-radius: 20px;
+    border: #212121;
+    border-style: ridge;
+}
